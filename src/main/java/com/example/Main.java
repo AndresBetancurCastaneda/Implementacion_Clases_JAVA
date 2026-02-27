@@ -2,9 +2,11 @@ package com.example;
 
 public class Main {
     public static void main(String[] args) {
+        // Crear instancias de la clase Product
         Product product1 = new Product();
         Product product2 = new Product();
-        
+
+        // Configurar los atributos de los productos
         product1.setId(1);
         product1.setName("Laptop");
         product1.setPrice(999.99);
@@ -15,6 +17,7 @@ public class Main {
         product2.setPrice(499.99);
         product2.setStock(15);
 
+        // Imprimir los detalles de los productos
         System.out.println("Product ID: " + product1.getId());
         System.out.println("Product Name: " + product1.getName());
         System.out.println("Product Price: $" + product1.getPrice());
@@ -24,7 +27,8 @@ public class Main {
         System.out.println("Product Name: " + product2.getName());
         System.out.println("Product Price: $" + product2.getPrice());
         System.out.println("Product Stock: " + product2.getStock());
-
+        
+        // Imprimir los detalles de los productos utilizando el método toString()
         System.out.println(product1.toString());
         System.out.println(product2.toString());
         

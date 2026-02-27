@@ -1,11 +1,13 @@
 package com.example;
 
 public class Product {
+    // Atributos de la clase Product
     private int id;
     private String name;
     private double price;
     private int stock;
 
+    // Métodos getters y setters para los atributos
     public String getName() {
         return name;
     }
@@ -37,6 +39,8 @@ public class Product {
     public void setStock(int stock) {
         this.stock = stock;
     }
+
+    // Método toString() para representar el objeto como una cadena de texto
 
     @Override
     public String toString() {
